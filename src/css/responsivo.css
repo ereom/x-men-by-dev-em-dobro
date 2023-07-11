@@ -1,0 +1,39 @@
+@media (max-width: 1120px) {
+  .header .logo {
+    max-width: 190px;
+  }
+
+  .char-picker {
+    flex-direction: column-reverse;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+
+  .char-picker .chars {
+    margin-top: 37px;
+  }
+
+  .char-picker .chars .title {
+    font-size: 15px;
+    margin: 4px auto;
+  }
+
+  .char-picker .char-list {
+    gap: 9px;
+  }
+
+  .char-picker .char img {
+    width: 80px;
+  }
+
+  .picked-char .full-art {
+    width: 350px;
+    height: 350px;
+  }
+
+  .picked-char .description {
+    width: 80%;
+    font-size: 16px;
+    margin: 1px auto;
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Men @Dev em Dobro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-men" />
+    </header>
+
+    <main class="char-picker">
+      <section class="chars">
+        <h1 class="title">Selecione o personagem</h1>
+        <ul class="char-list">
+          <li class="char selected" id="ciclope" data-name="Cyclops" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+            <img src="./src/imagens/card-ciclope.jpg" alt="Cyclops char" />
+          </li>
+          <li class="char" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese">
+            <img src="./src/imagens/card-jean-grey.jpg" alt="Jean Grey char" />
+          </li>
+          <li class="char" id="lince-negra" data-name="Black Cat" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar">
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="Black Cat char"
+            />
+          </li>
+          <li class="char" id="magneto" data-name="Magneto" data-description="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos">
+            <img src="./src/imagens/card-magneto.jpg" alt="Magneto char" />
+          </li>
+          <li class="char" id="noturno" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar">
+            <img src="./src/imagens/card-noturno.jpg" alt="Nocturnal char" />
+          </li>
+          <li class="char" id="tempestade" data-name="Storm" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos">
+            <img src="./src/imagens/card-tempestade.jpg" alt="Storm char" />
+          </li>
+          <li class="char" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente">
+            <img src="./src/imagens/card-vampira.jpg" alt="Vampira char" />
+          </li>
+          <li class="char" id="wolverine" data-name="Wolverine" data-description="Garras Metálicas. Fator de Cura Regenerativo, Sentidos Aguçados.">
+            <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine char" />
+          </li>
+        </ul>
+      </section>
+      <section class="picked-char">
+        <img
+          class="full-art"
+          src="./src/imagens/card-ciclope.png"
+          alt="Picked Char"
+        />
+        <div class="info-chars">
+          <h2 class="char-name" id="char-name">Cyclops</h2>
+          <p class="description" id="description">
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+  <footer>Projeto X-Men Dev em Dobro by @ere_om</footer>
+</html>
